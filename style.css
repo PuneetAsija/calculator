@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #7AA502; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Popins", "Arial";
+  font-weight: 600;
+  background-color: black;
+}
+h1 {
+  position: absolute;
+  top: 0em;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+img{
+    position: absolute;
+    left: 0;
+    top: 2.5em;
+    opacity: .2;
+}
+.img{
+    position: absolute;
+    left: 50em;
+    top: 0em;
+    opacity: .2;
+    width: 48em;
+}
+.container {
+  position: absolute;
+  top: 4em;
+  margin: 4em 0;
+  width: 22em;
+  height: 34em;
+  background: #e8e8e8;
+  background: linear-gradient(orangered, yellow);
+  border-radius: 1em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.screen_wrap {
+  margin: 2em 0 1em 0;
+  width: 18em;
+  height: 5em;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  box-shadow: 6px 6px 12px #cfcfce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen_container {
+  width: 17em;
+  height: 4em;
+  border-radius: 0.25em;
+  background: #bbbfca;
+  box-shadow: inser 7px 7px 15px #9fa2ac, inset -7px -7px 15px #f7dce8;
+}
+.screen {
+  padding-right: 7px;
+  width: 100%;
+  height: 70%;
+  color: black;
+  font-size: 3em;
+  box-sizing: border-box;
+  text-align: right;
+}
+.history {
+  padding: 4px 7px 0 0;
+  width: 100%;
+  height: 30%;
+  font-size: 1em;
+  color: #303841;
+  box-sizing: border-box;
+  text-align: right;
+  opacity: 0.5;
+}
+.btn_wrap {
+  width: 20em;
+  height: 25em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background: linear-gradient(lightblue, yellow);
+}
+.btn {
+  all: unset;
+  width: 3.5em;
+  height: 3.5em;
+  color: #303841;
+  border-radius: 50%;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 10px #cfcfce, -5px -5px 10px rgb(54, 53, 53);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+.btn:nth-child(19) {
+  width: 8em;
+  border-radius: 4em;
+}
+.btn:nth-child(3),
+.btn:nth-child(4),
+.btn:nth-child(8),
+.btn:nth-child(12),
+.btn:nth-child(16) {
+  background: #9fc2e7;
+}
+.btn:nth-child(1),
+.btn:nth-child(2),
+.btn:nth-child(19) {
+  background: #fecda6;
+}
